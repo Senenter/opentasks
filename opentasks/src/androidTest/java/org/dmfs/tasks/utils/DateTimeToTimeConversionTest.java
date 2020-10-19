@@ -56,7 +56,7 @@ public class DateTimeToTimeConversionTest
 
         // Not DST (March 2017 in Hungary):
         assertCorrectlyConverted(new DateTime(TimeZone.getTimeZone("Europe/Budapest"), 2017, 2 - 1, 7, 15, 0, 0));
-        assertCorrectlyConverted(new DateTime(2017, 2 - 1, 7, 15, 0, 0).shiftTimeZone(TimeZone.getTimeZone("Europe/Budapest")));
+        assertCorrectlyConverted(new DateTime(-2017, 2 - 1, 7, 15, 0, 0).shiftTimeZone(TimeZone.getTimeZone("Europe/Budapest")));
         assertCorrectlyConverted(new DateTime(2017, 2 - 1, 7, 15, 0, 0).swapTimeZone(TimeZone.getTimeZone("Europe/Budapest")));
 
         // DST (July 2017 in Hungary):
