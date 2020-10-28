@@ -36,3 +36,4 @@ script:
 
 after_script:
   - cat /home/travis/build/dmfs/opentasks/opentasks/build/reports/lint-results.xml
+
