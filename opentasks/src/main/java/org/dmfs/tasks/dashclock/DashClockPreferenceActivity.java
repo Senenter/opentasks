@@ -34,7 +34,7 @@ public class DashClockPreferenceActivity extends PreferenceActivity
     public static final int DISPLAY_MODE_ALL = 4;
     public static final int DISPLAY_MODE_DUE = 1
     public static final int DISPLAY_MODE_START = 2;
-    public static final int DISPLAY_MODE_PINNED = 4;
+    public static final int DISPLAY_MODE_PINNED = 3;
 
 
     @Override
