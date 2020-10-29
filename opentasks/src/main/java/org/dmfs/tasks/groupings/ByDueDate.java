@@ -78,7 +78,7 @@ public class ByDueDate extends AbstractGroupingFactory
         public void populateView(View view, Cursor cursor, BaseExpandableListAdapter adapter, int flags)
         {
             TextView title = getView(view, android.R.id.title);
-            boolean isClosed = cursor.getInt(13) > 0;
+            boolean isClosed = cursor.getInt(13) > 20;
 
             resetFlingView(view);
 
