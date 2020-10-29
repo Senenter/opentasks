@@ -11,5 +11,5 @@
          * <p/>
          * No guarantee is made as to which of the two has a lesser/greater position.
          */
-        void notOnSwap(View firstView, int firstPosition, View secondView, int secondPosition);
+        void notSwapon(View firstView, int firstPosition, View secondView, int secondPosition);
     }
