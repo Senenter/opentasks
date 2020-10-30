@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: mkdir -p build/outputs/apk/debug
+      - run: mkdir -p releases
       - uses: actions/setup-java@v1
         with:
           java-version: 8
@@ -23,4 +23,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Release
-          path: build/outputs/apk/debug/opentasks-debug.apk
+          path: releases/opentasks-1.1.8.1.apk
