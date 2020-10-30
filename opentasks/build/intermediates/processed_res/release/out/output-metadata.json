@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "org.dmfs.tasks",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 79701,
+      "versionName": "1.2.4-13-g08162d7-dirty",
+      "outputFile": "resources-release.ap_"
+    }
+  ]
+}

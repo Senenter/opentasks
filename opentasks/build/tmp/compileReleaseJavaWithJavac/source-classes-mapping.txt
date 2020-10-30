@@ -1,0 +1,582 @@
+org/dmfs/tasks/notification/TaskNotificationHandler.java
+ org.dmfs.tasks.notification.TaskNotificationHandler
+org/dmfs/tasks/actions/DeferDueAction.java
+ org.dmfs.tasks.actions.DeferDueAction
+org/dmfs/tasks/model/adapters/ChecklistFieldAdapter.java
+ org.dmfs.tasks.model.adapters.ChecklistFieldAdapter
+org/dmfs/tasks/groupings/AbstractGroupingFactory.java
+ org.dmfs.tasks.groupings.AbstractGroupingFactory
+org/dmfs/tasks/homescreen/TaskListWidgetProviderLarge.java
+ org.dmfs.tasks.homescreen.TaskListWidgetProviderLarge
+org/dmfs/tasks/actions/NotifyStickyAction.java
+ org.dmfs.tasks.actions.NotifyStickyAction
+org/dmfs/tasks/utils/colors/BlendColor.java
+ org.dmfs.tasks.utils.colors.BlendColor
+org/dmfs/tasks/widget/UrlFieldEditor.java
+ org.dmfs.tasks.widget.UrlFieldEditor
+org/dmfs/tasks/groupings/cursorloaders/SearchHistoryCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.SearchHistoryCursorLoaderFactory
+org/dmfs/tasks/widget/RecurrenceRuleView.java
+ org.dmfs.tasks.widget.RecurrenceRuleView
+org/dmfs/tasks/notification/ActionReceiver.java
+ org.dmfs.tasks.notification.ActionReceiver
+org/dmfs/tasks/TaskListActivity.java
+ org.dmfs.tasks.TaskListActivity
+ org.dmfs.tasks.TaskListActivity$1
+ org.dmfs.tasks.TaskListActivity$1$1
+ org.dmfs.tasks.TaskListActivity$2
+ org.dmfs.tasks.TaskListActivity$3
+ org.dmfs.tasks.TaskListActivity$4
+ org.dmfs.tasks.TaskListActivity$5
+org/dmfs/tasks/TasksApplication.java
+ org.dmfs.tasks.TasksApplication
+org/dmfs/tasks/groupings/ByPriority.java
+ org.dmfs.tasks.groupings.ByPriority
+ org.dmfs.tasks.groupings.ByPriority$1
+ org.dmfs.tasks.groupings.ByPriority$2
+ org.dmfs.tasks.groupings.ByPriority$2$1
+org/dmfs/tasks/utils/permission/PermissionRequest.java
+ org.dmfs.tasks.utils.permission.PermissionRequest
+org/dmfs/tasks/groupings/cursorloaders/SearchHistoryCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.SearchHistoryCursorFactory
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeCursorLoader.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeCursorLoader
+org/dmfs/tasks/notification/signals/SettingsSignal.java
+ org.dmfs.tasks.notification.signals.SettingsSignal
+org/dmfs/tasks/notification/signals/NoSignal.java
+ org.dmfs.tasks.notification.signals.NoSignal
+org/dmfs/tasks/model/adapters/BooleanFieldAdapter.java
+ org.dmfs.tasks.model.adapters.BooleanFieldAdapter
+org/dmfs/tasks/groupings/cursorloaders/PriorityCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.PriorityCursorFactory
+org/dmfs/tasks/utils/DatabaseInitializedReceiver.java
+ org.dmfs.tasks.utils.DatabaseInitializedReceiver
+org/dmfs/tasks/widget/BaseTaskView.java
+ org.dmfs.tasks.widget.BaseTaskView
+org/dmfs/tasks/notification/ActionService.java
+ org.dmfs.tasks.notification.ActionService
+org/dmfs/tasks/model/AbstractArrayChoicesAdapter.java
+ org.dmfs.tasks.model.AbstractArrayChoicesAdapter
+org/dmfs/tasks/utils/RecentlyUsedLists.java
+ org.dmfs.tasks.utils.RecentlyUsedLists
+org/dmfs/tasks/notification/state/StateInfo.java
+ org.dmfs.tasks.notification.state.StateInfo
+org/dmfs/tasks/notification/signals/Sound.java
+ org.dmfs.tasks.notification.signals.Sound
+org/dmfs/tasks/notification/signals/AllSignal.java
+ org.dmfs.tasks.notification.signals.AllSignal
+org/dmfs/tasks/model/constraints/After.java
+ org.dmfs.tasks.model.constraints.After
+org/dmfs/tasks/groupings/ByDueDate.java
+ org.dmfs.tasks.groupings.ByDueDate
+ org.dmfs.tasks.groupings.ByDueDate$1
+ org.dmfs.tasks.groupings.ByDueDate$2
+org/dmfs/tasks/groupings/cursorloaders/EmptyCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.EmptyCursorLoaderFactory
+ org.dmfs.tasks.groupings.cursorloaders.EmptyCursorLoaderFactory$1
+org/dmfs/tasks/utils/permission/MarshmallowPermissions.java
+ org.dmfs.tasks.utils.permission.MarshmallowPermissions
+ org.dmfs.tasks.utils.permission.MarshmallowPermissions$1
+ org.dmfs.tasks.utils.permission.MarshmallowPermissions$MarshmallowPermission
+ org.dmfs.tasks.utils.permission.MarshmallowPermissions$MarshmallowPermissionRequest
+org/dmfs/tasks/utils/ObservableSparseArrayCompat.java
+ org.dmfs.tasks.utils.ObservableSparseArrayCompat
+com/jmedeisis/draglinearlayout/DragLinearLayout.java
+ com.jmedeisis.draglinearlayout.DragLinearLayout
+ com.jmedeisis.draglinearlayout.DragLinearLayout$1
+ com.jmedeisis.draglinearlayout.DragLinearLayout$2
+ com.jmedeisis.draglinearlayout.DragLinearLayout$3
+ com.jmedeisis.draglinearlayout.DragLinearLayout$3$1
+ com.jmedeisis.draglinearlayout.DragLinearLayout$4
+ com.jmedeisis.draglinearlayout.DragLinearLayout$5
+ com.jmedeisis.draglinearlayout.DragLinearLayout$DragHandleOnTouchListener
+ com.jmedeisis.draglinearlayout.DragLinearLayout$DragItem
+ com.jmedeisis.draglinearlayout.DragLinearLayout$DraggableChild
+ com.jmedeisis.draglinearlayout.DragLinearLayout$OnViewSwapListener
+org/dmfs/tasks/share/ShareIntentFactory.java
+ org.dmfs.tasks.share.ShareIntentFactory
+org/dmfs/tasks/actions/CompleteAction.java
+ org.dmfs.tasks.actions.CompleteAction
+org/dmfs/tasks/notification/signals/Conditional.java
+ org.dmfs.tasks.notification.signals.Conditional
+org/dmfs/tasks/actions/utils/NotificationPrefs.java
+ org.dmfs.tasks.actions.utils.NotificationPrefs
+org/dmfs/tasks/utils/TasksListCursorSpinnerAdapter.java
+ org.dmfs.tasks.utils.TasksListCursorSpinnerAdapter
+org/dmfs/tasks/model/adapters/FloatFieldAdapter.java
+ org.dmfs.tasks.model.adapters.FloatFieldAdapter
+org/dmfs/tasks/model/TaskFieldAdapters.java
+ org.dmfs.tasks.model.TaskFieldAdapters
+org/dmfs/tasks/groupings/cursorloaders/ProgressCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.ProgressCursorFactory
+org/dmfs/tasks/widget/CheckListFieldEditor.java
+ org.dmfs.tasks.widget.CheckListFieldEditor
+ org.dmfs.tasks.widget.CheckListFieldEditor$CheckItemTag
+ org.dmfs.tasks.widget.CheckListFieldEditor$CheckItemTag$1
+org/dmfs/tasks/model/constraints/UpdateAllDay.java
+ org.dmfs.tasks.model.constraints.UpdateAllDay
+org/dmfs/tasks/utils/FlingDetector.java
+ org.dmfs.tasks.utils.FlingDetector
+ org.dmfs.tasks.utils.FlingDetector$1
+ org.dmfs.tasks.utils.FlingDetector$2
+ org.dmfs.tasks.utils.FlingDetector$OnFlingListener
+org/dmfs/tasks/utils/permission/BasicAppPermissions.java
+ org.dmfs.tasks.utils.permission.BasicAppPermissions
+org/dmfs/tasks/actions/TaskAction.java
+ org.dmfs.tasks.actions.TaskAction
+org/dmfs/tasks/utils/AsyncContentLoader.java
+ org.dmfs.tasks.utils.AsyncContentLoader
+org/dmfs/tasks/homescreen/TaskListSelectionFragment.java
+ org.dmfs.tasks.homescreen.TaskListSelectionFragment
+ org.dmfs.tasks.homescreen.TaskListSelectionFragment$1
+ org.dmfs.tasks.homescreen.TaskListSelectionFragment$OnSelectionListener
+org/dmfs/tasks/groupings/cursorloaders/PriorityCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.PriorityCursorLoaderFactory
+org/dmfs/tasks/notification/signals/Vibration.java
+ org.dmfs.tasks.notification.signals.Vibration
+org/dmfs/tasks/utils/ExpandableChildDescriptor.java
+ org.dmfs.tasks.utils.ExpandableChildDescriptor
+org/dmfs/tasks/groupings/TabConfig.java
+ org.dmfs.tasks.groupings.TabConfig
+ org.dmfs.tasks.groupings.TabConfig$Tab
+org/dmfs/tasks/model/defaults/Default.java
+ org.dmfs.tasks.model.defaults.Default
+org/dmfs/tasks/QuickAddDialogFragment.java
+ org.dmfs.tasks.QuickAddDialogFragment
+ org.dmfs.tasks.QuickAddDialogFragment$1
+ org.dmfs.tasks.QuickAddDialogFragment$OnTextInputListener
+ org.dmfs.tasks.QuickAddDialogFragment$TASK_LIST_PROJECTION_VALUES
+org/dmfs/tasks/share/TimeFormatter.java
+ org.dmfs.tasks.share.TimeFormatter
+org/dmfs/tasks/notification/state/TaskNotificationState.java
+ org.dmfs.tasks.notification.state.TaskNotificationState
+org/dmfs/tasks/utils/Sorted.java
+ org.dmfs.tasks.utils.Sorted
+org/dmfs/tasks/homescreen/TaskListWidgetSettingsActivity.java
+ org.dmfs.tasks.homescreen.TaskListWidgetSettingsActivity
+org/dmfs/tasks/widget/PercentageFieldEditor.java
+ org.dmfs.tasks.widget.PercentageFieldEditor
+org/dmfs/tasks/model/Sources.java
+ org.dmfs.tasks.model.Sources
+org/dmfs/tasks/model/IChoicesAdapter.java
+ org.dmfs.tasks.model.IChoicesAdapter
+org/dmfs/tasks/actions/PostUndoAction.java
+ org.dmfs.tasks.actions.PostUndoAction
+org/dmfs/tasks/groupings/filters/OrFilter.java
+ org.dmfs.tasks.groupings.filters.OrFilter
+org/dmfs/tasks/actions/WipeNotificationAction.java
+ org.dmfs.tasks.actions.WipeNotificationAction
+org/dmfs/tasks/groupings/ByProgress.java
+ org.dmfs.tasks.groupings.ByProgress
+ org.dmfs.tasks.groupings.ByProgress$1
+ org.dmfs.tasks.groupings.ByProgress$2
+org/dmfs/tasks/groupings/BySearch.java
+ org.dmfs.tasks.groupings.BySearch
+ org.dmfs.tasks.groupings.BySearch$1
+ org.dmfs.tasks.groupings.BySearch$2
+ org.dmfs.tasks.groupings.BySearch$2$1
+ org.dmfs.tasks.groupings.BySearch$2$GroupTag
+org/dmfs/tasks/homescreen/TaskListWidgetUpdaterService.java
+ org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService
+ org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService$TaskListViewsFactory
+ org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService$TaskListViewsFactory$1
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeStartCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeStartCursorFactory
+org/dmfs/tasks/widget/CheckListFieldView.java
+ org.dmfs.tasks.widget.CheckListFieldView
+ org.dmfs.tasks.widget.CheckListFieldView$1
+ org.dmfs.tasks.widget.CheckListFieldView$2
+ org.dmfs.tasks.widget.CheckListFieldView$3
+ org.dmfs.tasks.widget.CheckListFieldView$4
+org/dmfs/tasks/utils/TimeChangeListener.java
+ org.dmfs.tasks.utils.TimeChangeListener
+org/dmfs/tasks/ViewTaskFragment.java
+ org.dmfs.tasks.ViewTaskFragment
+ org.dmfs.tasks.ViewTaskFragment$1
+ org.dmfs.tasks.ViewTaskFragment$2
+ org.dmfs.tasks.ViewTaskFragment$3
+ org.dmfs.tasks.ViewTaskFragment$Callback
+org/dmfs/tasks/model/constraints/ShiftTime.java
+ org.dmfs.tasks.model.constraints.ShiftTime
+org/dmfs/tasks/utils/SearchHistoryDatabaseHelper.java
+ org.dmfs.tasks.utils.SearchHistoryDatabaseHelper
+ org.dmfs.tasks.utils.SearchHistoryDatabaseHelper$SearchHistoryColumns
+org/dmfs/tasks/widget/RecurrenceRuleEditor.java
+ org.dmfs.tasks.widget.RecurrenceRuleEditor
+org/dmfs/tasks/model/DescriptionItem.java
+ org.dmfs.tasks.model.DescriptionItem
+org/dmfs/tasks/actions/OpenAction.java
+ org.dmfs.tasks.actions.OpenAction
+org/dmfs/tasks/utils/BaseActivity.java
+ org.dmfs.tasks.utils.BaseActivity
+org/dmfs/tasks/utils/colors/SmoothLightnessCapped.java
+ org.dmfs.tasks.utils.colors.SmoothLightnessCapped
+org/dmfs/tasks/widget/LocationFieldView.java
+ org.dmfs.tasks.widget.LocationFieldView
+org/dmfs/tasks/utils/colors/AdjustedForFab.java
+ org.dmfs.tasks.utils.colors.AdjustedForFab
+org/dmfs/tasks/widget/ListenableScrollView.java
+ org.dmfs.tasks.widget.ListenableScrollView
+ org.dmfs.tasks.widget.ListenableScrollView$OnScrollListener
+org/dmfs/tasks/notification/signals/DelegatingNotificationSignal.java
+ org.dmfs.tasks.notification.signals.DelegatingNotificationSignal
+org/dmfs/tasks/actions/Conditional.java
+ org.dmfs.tasks.actions.Conditional
+org/dmfs/tasks/InputTextDialogFragment.java
+ org.dmfs.tasks.InputTextDialogFragment
+ org.dmfs.tasks.InputTextDialogFragment$1
+ org.dmfs.tasks.InputTextDialogFragment$2
+ org.dmfs.tasks.InputTextDialogFragment$InputTextListener
+org/dmfs/tasks/SyncSettingsActivity.java
+ org.dmfs.tasks.SyncSettingsActivity
+org/dmfs/tasks/widget/TextFieldView.java
+ org.dmfs.tasks.widget.TextFieldView
+org/dmfs/tasks/ViewTaskActivity.java
+ org.dmfs.tasks.ViewTaskActivity
+ org.dmfs.tasks.ViewTaskActivity$1
+org/dmfs/tasks/groupings/cursorloaders/CursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.CursorLoaderFactory
+org/dmfs/tasks/model/CursorChoicesAdapter.java
+ org.dmfs.tasks.model.CursorChoicesAdapter
+org/dmfs/tasks/utils/colors/DarkenedForStatusBar.java
+ org.dmfs.tasks.utils.colors.DarkenedForStatusBar
+org/dmfs/tasks/utils/SearchChildDescriptor.java
+ org.dmfs.tasks.utils.SearchChildDescriptor
+org/dmfs/tasks/model/OnContentChangeListener.java
+ org.dmfs.tasks.model.OnContentChangeListener
+org/dmfs/tasks/model/adapters/TimeZoneWrapper.java
+ org.dmfs.tasks.model.adapters.TimeZoneWrapper
+org/dmfs/tasks/EditTaskActivity.java
+ org.dmfs.tasks.EditTaskActivity
+org/dmfs/tasks/model/adapters/ColorFieldAdapter.java
+ org.dmfs.tasks.model.adapters.ColorFieldAdapter
+org/dmfs/tasks/actions/UpdateWidgetsAction.java
+ org.dmfs.tasks.actions.UpdateWidgetsAction
+org/dmfs/tasks/widget/AbstractFieldView.java
+ org.dmfs.tasks.widget.AbstractFieldView
+org/dmfs/tasks/model/adapters/FormattedStringFieldAdapter.java
+ org.dmfs.tasks.model.adapters.FormattedStringFieldAdapter
+org/dmfs/tasks/model/constraints/AdjustPercentComplete.java
+ org.dmfs.tasks.model.constraints.AdjustPercentComplete
+org/dmfs/tasks/BuildConfig.java
+ org.dmfs.tasks.BuildConfig
+org/dmfs/tasks/widget/ListColorView.java
+ org.dmfs.tasks.widget.ListColorView
+org/dmfs/tasks/utils/ValidatingUri.java
+ org.dmfs.tasks.utils.ValidatingUri
+org/dmfs/tasks/model/defaults/DefaultBefore.java
+ org.dmfs.tasks.model.defaults.DefaultBefore
+org/dmfs/tasks/groupings/filters/AbstractFilter.java
+ org.dmfs.tasks.groupings.filters.AbstractFilter
+org/dmfs/tasks/model/layout/LayoutOptions.java
+ org.dmfs.tasks.model.layout.LayoutOptions
+org/dmfs/tasks/utils/RetainExpandableListView.java
+ org.dmfs.tasks.utils.RetainExpandableListView
+org/dmfs/tasks/model/IllegalDataKindException.java
+ org.dmfs.tasks.model.IllegalDataKindException
+org/dmfs/tasks/model/adapters/TimezoneFieldAdapter.java
+ org.dmfs.tasks.model.adapters.TimezoneFieldAdapter
+org/dmfs/tasks/notification/state/RowState.java
+ org.dmfs.tasks.notification.state.RowState
+org/dmfs/tasks/utils/permission/AppPermissions.java
+ org.dmfs.tasks.utils.permission.AppPermissions
+org/dmfs/tasks/widget/ChoicesFieldEditor.java
+ org.dmfs.tasks.widget.ChoicesFieldEditor
+ org.dmfs.tasks.widget.ChoicesFieldEditor$1
+ org.dmfs.tasks.widget.ChoicesFieldEditor$ChoicesSpinnerAdapter
+ org.dmfs.tasks.widget.ChoicesFieldEditor$ChoicesSpinnerAdapter$SpinnerItemTag
+org/dmfs/tasks/groupings/cursorloaders/AbstractCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.AbstractCursorLoaderFactory
+org/dmfs/tasks/widget/DescriptionFieldView.java
+ org.dmfs.tasks.widget.DescriptionFieldView
+ org.dmfs.tasks.widget.DescriptionFieldView$1
+ org.dmfs.tasks.widget.DescriptionFieldView$2
+ org.dmfs.tasks.widget.DescriptionFieldView$3
+ org.dmfs.tasks.widget.DescriptionFieldView$4
+ org.dmfs.tasks.widget.DescriptionFieldView$5
+org/dmfs/tasks/model/ArrayChoicesAdapter.java
+ org.dmfs.tasks.model.ArrayChoicesAdapter
+org/dmfs/tasks/actions/UpdateAction.java
+ org.dmfs.tasks.actions.UpdateAction
+org/dmfs/tasks/model/constraints/ShiftIfAfter.java
+ org.dmfs.tasks.model.constraints.ShiftIfAfter
+org/dmfs/tasks/model/defaults/DefaultAfter.java
+ org.dmfs.tasks.model.defaults.DefaultAfter
+org/dmfs/tasks/utils/permission/utils/AppSettingsIntent.java
+ org.dmfs.tasks.utils.permission.utils.AppSettingsIntent
+org/dmfs/tasks/EditTaskFragment.java
+ org.dmfs.tasks.EditTaskFragment
+ org.dmfs.tasks.EditTaskFragment$1
+ org.dmfs.tasks.EditTaskFragment$2
+ org.dmfs.tasks.EditTaskFragment$TASK_LIST_PROJECTION_VALUES
+org/dmfs/tasks/model/ModelInflaterException.java
+ org.dmfs.tasks.model.ModelInflaterException
+org/dmfs/tasks/model/DefaultModel.java
+ org.dmfs.tasks.model.DefaultModel
+org/dmfs/tasks/SettingsListFragment.java
+ org.dmfs.tasks.SettingsListFragment
+ org.dmfs.tasks.SettingsListFragment$AccountAdapter
+ org.dmfs.tasks.SettingsListFragment$VisibleListAdapter
+ org.dmfs.tasks.SettingsListFragment$VisibleListAdapter$CheckableItem
+org/dmfs/tasks/model/adapters/FieldAdapter.java
+ org.dmfs.tasks.model.adapters.FieldAdapter
+org/dmfs/tasks/widget/PercentageFieldView.java
+ org.dmfs.tasks.widget.PercentageFieldView
+org/dmfs/tasks/widget/SmartView.java
+ org.dmfs.tasks.widget.SmartView
+org/dmfs/tasks/widget/UrlFieldView.java
+ org.dmfs.tasks.widget.UrlFieldView
+org/dmfs/tasks/actions/DelegatingTaskAction.java
+ org.dmfs.tasks.actions.DelegatingTaskAction
+org/dmfs/tasks/utils/TasksListCursorAdapter.java
+ org.dmfs.tasks.utils.TasksListCursorAdapter
+ org.dmfs.tasks.utils.TasksListCursorAdapter$1
+ org.dmfs.tasks.utils.TasksListCursorAdapter$SelectionEnabledListener
+org/dmfs/tasks/notification/TaskNotificationService.java
+ org.dmfs.tasks.notification.TaskNotificationService
+org/dmfs/tasks/model/adapters/DescriptionFieldAdapter.java
+ org.dmfs.tasks.model.adapters.DescriptionFieldAdapter
+org/dmfs/tasks/groupings/filters/AndFilter.java
+ org.dmfs.tasks.groupings.filters.AndFilter
+org/dmfs/tasks/utils/permission/Permission.java
+ org.dmfs.tasks.utils.permission.Permission
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeStartCursorLoader.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeStartCursorLoader
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeShortCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeShortCursorFactory
+org/dmfs/tasks/model/adapters/TimeFieldAdapter.java
+ org.dmfs.tasks.model.adapters.TimeFieldAdapter
+org/dmfs/tasks/utils/permission/dialog/PermissionRequestDialogFragment.java
+ org.dmfs.tasks.utils.permission.dialog.PermissionRequestDialogFragment
+ org.dmfs.tasks.utils.permission.dialog.PermissionRequestDialogFragment$1
+ org.dmfs.tasks.utils.permission.dialog.PermissionRequestDialogFragment$2
+org/dmfs/tasks/model/adapters/DescriptionStringFieldAdapter.java
+ org.dmfs.tasks.model.adapters.DescriptionStringFieldAdapter
+org/dmfs/tasks/widget/BooleanFieldView.java
+ org.dmfs.tasks.widget.BooleanFieldView
+org/dmfs/tasks/model/adapters/UriFieldAdapter.java
+ org.dmfs.tasks.model.adapters.UriFieldAdapter
+org/dmfs/tasks/notification/state/PrefState.java
+ org.dmfs.tasks.notification.state.PrefState
+org/dmfs/tasks/homescreen/TaskListWidgetItem.java
+ org.dmfs.tasks.homescreen.TaskListWidgetItem
+org/dmfs/tasks/share/TaskShareDetails.java
+ org.dmfs.tasks.share.TaskShareDetails
+org/dmfs/tasks/dashclock/DashClockPreferenceActivity.java
+ org.dmfs.tasks.dashclock.DashClockPreferenceActivity
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeStartCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeStartCursorLoaderFactory
+org/dmfs/tasks/utils/SetFromMap.java
+ org.dmfs.tasks.utils.SetFromMap
+org/dmfs/tasks/model/adapters/CustomizedDefaultFieldAdapter.java
+ org.dmfs.tasks.model.adapters.CustomizedDefaultFieldAdapter
+org/dmfs/tasks/utils/permission/NoOpPermissionRequest.java
+ org.dmfs.tasks.utils.permission.NoOpPermissionRequest
+org/dmfs/tasks/utils/SafeFragmentUiRunnable.java
+ org.dmfs.tasks.utils.SafeFragmentUiRunnable
+org/dmfs/tasks/model/XmlModel.java
+ org.dmfs.tasks.model.XmlModel
+ org.dmfs.tasks.model.XmlModel$1
+ org.dmfs.tasks.model.XmlModel$2
+ org.dmfs.tasks.model.XmlModel$3
+ org.dmfs.tasks.model.XmlModel$4
+ org.dmfs.tasks.model.XmlModel$5
+ org.dmfs.tasks.model.XmlModel$6
+ org.dmfs.tasks.model.XmlModel$7
+ org.dmfs.tasks.model.XmlModel$DataKind
+ org.dmfs.tasks.model.XmlModel$FieldInflater
+ org.dmfs.tasks.model.XmlModel$ModelParserState
+org/dmfs/tasks/model/layout/LayoutDescriptor.java
+ org.dmfs.tasks.model.layout.LayoutDescriptor
+org/dmfs/tasks/widget/BooleanFieldEditor.java
+ org.dmfs.tasks.widget.BooleanFieldEditor
+org/dmfs/tasks/actions/PersistNotificationAction.java
+ org.dmfs.tasks.actions.PersistNotificationAction
+org/dmfs/tasks/actions/NotifyAction.java
+ org.dmfs.tasks.actions.NotifyAction
+org/dmfs/tasks/widget/TaskView.java
+ org.dmfs.tasks.widget.TaskView
+org/dmfs/tasks/model/constraints/BeforeOrShiftTime.java
+ org.dmfs.tasks.model.constraints.BeforeOrShiftTime
+org/dmfs/tasks/actions/PinAction.java
+ org.dmfs.tasks.actions.PinAction
+org/dmfs/tasks/notification/signals/NotificationSignal.java
+ org.dmfs.tasks.notification.signals.NotificationSignal
+org/dmfs/tasks/utils/ContentValueMapper.java
+ org.dmfs.tasks.utils.ContentValueMapper
+org/dmfs/tasks/model/ContentSet.java
+ org.dmfs.tasks.model.ContentSet
+ org.dmfs.tasks.model.ContentSet$1
+org/dmfs/tasks/widget/ProgressBackgroundView.java
+ org.dmfs.tasks.widget.ProgressBackgroundView
+org/dmfs/tasks/groupings/filters/ConstantFilter.java
+ org.dmfs.tasks.groupings.filters.ConstantFilter
+org/dmfs/tasks/utils/SearchHistoryHelper.java
+ org.dmfs.tasks.utils.SearchHistoryHelper
+org/dmfs/tasks/utils/AsyncModelLoader.java
+ org.dmfs.tasks.utils.AsyncModelLoader
+org/dmfs/tasks/utils/OnChildLoadedListener.java
+ org.dmfs.tasks.utils.OnChildLoadedListener
+org/dmfs/tasks/actions/CancelDelayedAction.java
+ org.dmfs.tasks.actions.CancelDelayedAction
+org/dmfs/tasks/utils/permission/LegacyAppPermissions.java
+ org.dmfs.tasks.utils.permission.LegacyAppPermissions
+ org.dmfs.tasks.utils.permission.LegacyAppPermissions$LegacyPermission
+org/dmfs/tasks/model/Model.java
+ org.dmfs.tasks.model.Model
+org/dmfs/tasks/model/constraints/NotBefore.java
+ org.dmfs.tasks.model.constraints.NotBefore
+org/dmfs/tasks/utils/ManifestAppName.java
+ org.dmfs.tasks.utils.ManifestAppName
+org/dmfs/tasks/widget/ChoicesFieldView.java
+ org.dmfs.tasks.widget.ChoicesFieldView
+org/dmfs/tasks/model/FieldDescriptor.java
+ org.dmfs.tasks.model.FieldDescriptor
+org/dmfs/tasks/actions/CancelNotificationAction.java
+ org.dmfs.tasks.actions.CancelNotificationAction
+org/dmfs/tasks/actions/DelayedAction.java
+ org.dmfs.tasks.actions.DelayedAction
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeCursorFactory
+org/dmfs/tasks/ManageListActivity.java
+ org.dmfs.tasks.ManageListActivity
+ org.dmfs.tasks.ManageListActivity$1
+org/dmfs/tasks/utils/OnContentLoadedListener.java
+ org.dmfs.tasks.utils.OnContentLoadedListener
+org/dmfs/tasks/actions/conditions/NotificationEnabled.java
+ org.dmfs.tasks.actions.conditions.NotificationEnabled
+org/dmfs/tasks/widget/TimeFieldView.java
+ org.dmfs.tasks.widget.TimeFieldView
+org/dmfs/tasks/notification/state/RowStateInfo.java
+ org.dmfs.tasks.notification.state.RowStateInfo
+org/dmfs/tasks/share/TaskShareTitle.java
+ org.dmfs.tasks.share.TaskShareTitle
+org/dmfs/tasks/utils/ExpandableGroupDescriptorAdapter.java
+ org.dmfs.tasks.utils.ExpandableGroupDescriptorAdapter
+ org.dmfs.tasks.utils.ExpandableGroupDescriptorAdapter$1
+org/dmfs/tasks/groupings/BaseTaskViewDescriptor.java
+ org.dmfs.tasks.groupings.BaseTaskViewDescriptor
+org/dmfs/tasks/utils/TimeChangeObserver.java
+ org.dmfs.tasks.utils.TimeChangeObserver
+ org.dmfs.tasks.utils.TimeChangeObserver$1
+org/dmfs/tasks/utils/ExpandableGroupDescriptor.java
+ org.dmfs.tasks.utils.ExpandableGroupDescriptor
+org/dmfs/tasks/widget/TimeFieldEditor.java
+ org.dmfs.tasks.widget.TimeFieldEditor
+org/dmfs/tasks/model/constraints/NotAfter.java
+ org.dmfs.tasks.model.constraints.NotAfter
+org/dmfs/tasks/widget/CheckListFieldViewLegacy.java
+ org.dmfs.tasks.widget.CheckListFieldViewLegacy
+org/dmfs/tasks/notification/state/JsonStateInfo.java
+ org.dmfs.tasks.notification.state.JsonStateInfo
+org/dmfs/tasks/model/CheckListItem.java
+ org.dmfs.tasks.model.CheckListItem
+org/dmfs/tasks/notification/signals/Lights.java
+ org.dmfs.tasks.notification.signals.Lights
+org/dmfs/tasks/dashclock/TasksExtension.java
+ org.dmfs.tasks.dashclock.TasksExtension
+org/dmfs/tasks/utils/TaskIntentFactory.java
+ org.dmfs.tasks.utils.TaskIntentFactory
+org/dmfs/tasks/model/constraints/AbstractConstraint.java
+ org.dmfs.tasks.model.constraints.AbstractConstraint
+org/dmfs/tasks/groupings/cursorloaders/ProgressCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.ProgressCursorLoaderFactory
+org/dmfs/tasks/widget/TaskEdit.java
+ org.dmfs.tasks.widget.TaskEdit
+org/dmfs/tasks/EmptyTaskFragment.java
+ org.dmfs.tasks.EmptyTaskFragment
+org/dmfs/tasks/widget/TextFieldEditor.java
+ org.dmfs.tasks.widget.TextFieldEditor
+org/dmfs/tasks/utils/WidgetConfigurationDatabaseHelper.java
+ org.dmfs.tasks.utils.WidgetConfigurationDatabaseHelper
+ org.dmfs.tasks.utils.WidgetConfigurationDatabaseHelper$WidgetConfigurationColumns
+org/dmfs/tasks/homescreen/TaskListWidgetProvider.java
+ org.dmfs.tasks.homescreen.TaskListWidgetProvider
+org/dmfs/tasks/utils/colors/Mixed.java
+ org.dmfs.tasks.utils.colors.Mixed
+org/dmfs/tasks/utils/permission/utils/ManifestPermissionStrings.java
+ org.dmfs.tasks.utils.permission.utils.ManifestPermissionStrings
+org/dmfs/tasks/notification/signals/Toggled.java
+ org.dmfs.tasks.notification.signals.Toggled
+org/dmfs/tasks/groupings/cursorloaders/CustomCursorLoader.java
+ org.dmfs.tasks.groupings.cursorloaders.CustomCursorLoader
+org/dmfs/tasks/groupings/cursorloaders/TimeRangeCursorLoaderFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.TimeRangeCursorLoaderFactory
+org/dmfs/tasks/TaskListFragment.java
+ org.dmfs.tasks.TaskListFragment
+ org.dmfs.tasks.TaskListFragment$1
+ org.dmfs.tasks.TaskListFragment$2
+ org.dmfs.tasks.TaskListFragment$3
+ org.dmfs.tasks.TaskListFragment$4
+ org.dmfs.tasks.TaskListFragment$5
+ org.dmfs.tasks.TaskListFragment$6
+ org.dmfs.tasks.TaskListFragment$AsyncSelectChildTask
+ org.dmfs.tasks.TaskListFragment$Callbacks
+ org.dmfs.tasks.TaskListFragment$ListPosition
+ org.dmfs.tasks.TaskListFragment$SelectChildTaskParams
+org/dmfs/tasks/groupings/ByStartDate.java
+ org.dmfs.tasks.groupings.ByStartDate
+ org.dmfs.tasks.groupings.ByStartDate$1
+ org.dmfs.tasks.groupings.ByStartDate$2
+org/dmfs/tasks/JobIds.java
+ org.dmfs.tasks.JobIds
+org/dmfs/tasks/utils/DateFormatter.java
+ org.dmfs.tasks.utils.DateFormatter
+ org.dmfs.tasks.utils.DateFormatter$1
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$1
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$2
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$3
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$4
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$5
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$6
+ org.dmfs.tasks.utils.DateFormatter$DateFormatContext$7
+org/dmfs/tasks/model/MinimalModel.java
+ org.dmfs.tasks.model.MinimalModel
+org/dmfs/tasks/StaleListBroadcastReceiver.java
+ org.dmfs.tasks.StaleListBroadcastReceiver
+org/dmfs/tasks/TaskGroupPagerAdapter.java
+ org.dmfs.tasks.TaskGroupPagerAdapter
+org/dmfs/tasks/model/adapters/IntegerFieldAdapter.java
+ org.dmfs.tasks.model.adapters.IntegerFieldAdapter
+org/dmfs/tasks/actions/RemoveNotificationAction.java
+ org.dmfs.tasks.actions.RemoveNotificationAction
+org/dmfs/tasks/groupings/ByList.java
+ org.dmfs.tasks.groupings.ByList
+ org.dmfs.tasks.groupings.ByList$1
+ org.dmfs.tasks.groupings.ByList$2
+ org.dmfs.tasks.groupings.ByList$2$1
+org/dmfs/tasks/model/constraints/ChecklistConstraint.java
+ org.dmfs.tasks.model.constraints.ChecklistConstraint
+org/dmfs/tasks/groupings/filters/BinaryOperationFilter.java
+ org.dmfs.tasks.groupings.filters.BinaryOperationFilter
+org/dmfs/tasks/share/TaskBindings.java
+ org.dmfs.tasks.share.TaskBindings
+org/dmfs/tasks/model/constraints/DescriptionConstraint.java
+ org.dmfs.tasks.model.constraints.DescriptionConstraint
+org/dmfs/tasks/actions/Composite.java
+ org.dmfs.tasks.actions.Composite
+org/dmfs/tasks/quicksettings/TaskQuickSettingsTile.java
+ org.dmfs.tasks.quicksettings.TaskQuickSettingsTile
+ org.dmfs.tasks.quicksettings.TaskQuickSettingsTile$1
+org/dmfs/tasks/groupings/cursorloaders/AbstractCustomCursorFactory.java
+ org.dmfs.tasks.groupings.cursorloaders.AbstractCustomCursorFactory
+org/dmfs/tasks/model/adapters/StringFieldAdapter.java
+ org.dmfs.tasks.model.adapters.StringFieldAdapter
+org/dmfs/tasks/AppSettingsFragment.java
+ org.dmfs.tasks.AppSettingsFragment
+org/dmfs/android/widgets/ColoredShapeCheckBox.java
+ org.dmfs.android.widgets.ColoredShapeCheckBox
+org/dmfs/tasks/model/TimeZoneChoicesAdapter.java
+ org.dmfs.tasks.model.TimeZoneChoicesAdapter
+ org.dmfs.tasks.model.TimeZoneChoicesAdapter$1
+org/dmfs/tasks/model/ResourceArrayChoicesAdapter.java
+ org.dmfs.tasks.model.ResourceArrayChoicesAdapter
+org/dmfs/tasks/widget/AbstractFieldEditor.java
+ org.dmfs.tasks.widget.AbstractFieldEditor
+org/dmfs/tasks/utils/ViewDescriptor.java
+ org.dmfs.tasks.utils.ViewDescriptor
+org/dmfs/tasks/utils/OnModelLoadedListener.java
+ org.dmfs.tasks.utils.OnModelLoadedListener
+org/dmfs/tasks/AppSettingsActivity.java
+ org.dmfs.tasks.AppSettingsActivity

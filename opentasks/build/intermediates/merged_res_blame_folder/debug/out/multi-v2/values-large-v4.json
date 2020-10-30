@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/martdejager/.gradle/caches/transforms-2/files-2.1/9d66a70e9026b653d092442adc05d7a8/appcompat-1.0.2/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "99,158,229,300,370,440,508,819,923",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "153,224,295,365,435,503,571,918,1034"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-large/bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "43",
+                        "endOffsets": "94"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-large/dimens.xml",
+                    "from": {
+                        "startLines": "6,5,4,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "230,163,110,56",
+                        "endColumns": "68,66,52,53",
+                        "endOffsets": "294,225,158,105"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "576,645,712,765",
+                        "endColumns": "68,66,52,53",
+                        "endOffsets": "640,707,760,814"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/.gradle/caches/transforms-2/files-2.1/7a0a7cd62f3f3b22a230c3b851dcd564/material-1.0.0/res/values-large-v4/values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "16,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "1039,1161",
+                        "endColumns": "121,133",
+                        "endOffsets": "1156,1290"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-large/styles.xml",
+                    "from": {
+                        "startLines": "9,3,14,23,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "360,115,537,802,658",
+                        "endLines": "12,7,16,26,21",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "531,354,652,950,796"
+                    },
+                    "to": {
+                        "startLines": "18,22,27,30,33",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1295,1471,1715,1835,1976",
+                        "endLines": "21,26,29,32,35",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1466,1710,1830,1971,2102"
+                    }
+                }
+            ]
+        }
+    ]
+}

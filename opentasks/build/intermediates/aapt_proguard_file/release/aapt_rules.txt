@@ -1,0 +1,159 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class org.dmfs.provider.tasks.TaskProvider { <init>(); }
+-keep class org.dmfs.provider.tasks.TaskProviderBroadcastReceiver { <init>(); }
+-keep class org.dmfs.tasks.AppSettingsActivity { <init>(); }
+-keep class org.dmfs.tasks.EditTaskActivity { <init>(); }
+-keep class org.dmfs.tasks.ManageListActivity { <init>(); }
+-keep class org.dmfs.tasks.StaleListBroadcastReceiver { <init>(); }
+-keep class org.dmfs.tasks.SyncSettingsActivity { <init>(); }
+-keep class org.dmfs.tasks.TaskListActivity { <init>(); }
+-keep class org.dmfs.tasks.TasksApplication { <init>(); }
+-keep class org.dmfs.tasks.ViewTaskActivity { <init>(); }
+-keep class org.dmfs.tasks.dashclock.DashClockPreferenceActivity { <init>(); }
+-keep class org.dmfs.tasks.dashclock.TasksExtension { <init>(); }
+-keep class org.dmfs.tasks.homescreen.TaskListWidgetProvider { <init>(); }
+-keep class org.dmfs.tasks.homescreen.TaskListWidgetProviderLarge { <init>(); }
+-keep class org.dmfs.tasks.homescreen.TaskListWidgetSettingsActivity { <init>(); }
+-keep class org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService { <init>(); }
+-keep class org.dmfs.tasks.notification.ActionReceiver { <init>(); }
+-keep class org.dmfs.tasks.notification.ActionService { <init>(); }
+-keep class org.dmfs.tasks.notification.TaskNotificationHandler { <init>(); }
+-keep class org.dmfs.tasks.notification.TaskNotificationService { <init>(); }
+-keep class org.dmfs.tasks.quicksettings.TaskQuickSettingsTile { <init>(); }
+-keep class org.dmfs.tasks.utils.DatabaseInitializedReceiver { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView { <init>(android.content.Context); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ShareActionProvider { <init>(android.content.Context); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.jmedeisis.draglinearlayout.DragLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.android.colorpicker.SquareView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.android.colorpicker.SquareViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.android.view.DrawablePagerTabStrip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.android.widgets.ColoredShapeCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.utils.RetainExpandableListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.BooleanFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.BooleanFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.CheckListFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.CheckListFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.ChoicesFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.ChoicesFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.DescriptionFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.ListColorView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.ListenableScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.LocationFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.PercentageFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.PercentageFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TaskEdit { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TaskListFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TaskListFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TaskView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TextFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TextFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TimeFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.TimeFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.UrlFieldEditor { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.dmfs.tasks.widget.UrlFieldView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keepclassmembers class * { *** onCancelUpdated(android.view.View); }
+
+-keepclassmembers class * { *** onSaveUpdated(android.view.View); }
+
+-keepclassmembers class * { *** showSyncedList(android.view.View); }
+

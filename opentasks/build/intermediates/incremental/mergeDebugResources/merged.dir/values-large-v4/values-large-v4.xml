@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="has_two_panes">false</bool>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
+    <dimen name="opentasks_details_pane_margin_bottom">-66dp</dimen>
+    <dimen name="opentasks_details_pane_overlay_top">104dp</dimen>
+    <dimen name="task_list_left_margin">10dp</dimen>
+    <dimen name="task_list_right_margin">10dp</dimen>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+    <style name="edit_detail_ll">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="edit_detail_pane">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+    <style name="task_list_container">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="task_list_group_count" parent="editor_label_text">
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+    <style name="task_list_item_date" parent="dark_text">
+        <item name="android:layout_marginRight">25dp</item>
+    </style>
+</resources>

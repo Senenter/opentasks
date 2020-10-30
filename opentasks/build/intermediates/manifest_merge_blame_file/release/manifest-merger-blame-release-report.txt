@@ -1,0 +1,822 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.dmfs.tasks"
+4    android:versionCode="79701"
+5    android:versionName="1.2.4-13-g08162d7-dirty" > <!-- TODO Remove after https://github.com/dmfs/opentasks/issues/392 -->
+6    <uses-sdk
+6-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:6:5-63
+7        android:minSdkVersion="19"
+7-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:6:5-63
+8        android:targetSdkVersion="29" />
+8-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:6:5-63
+9
+10    <uses-permission android:name="android.permission.WAKE_LOCK" />
+10-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:8:5-67
+10-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:8:22-65
+11    <uses-permission android:name="org.dmfs.permission.READ_TASKS" />
+11-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:9:5-69
+11-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:9:22-67
+12    <uses-permission android:name="org.dmfs.permission.WRITE_TASKS" />
+12-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:10:5-70
+12-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:10:22-68
+13    <uses-permission
+13-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:11:5-13:41
+14        android:name="android.permission.GET_ACCOUNTS"
+14-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:12:13-59
+15        android:maxSdkVersion="25" />
+15-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:13:13-39
+16    <uses-permission android:name="android.permission.READ_CONTACTS" />
+16-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:14:5-71
+16-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:14:22-69
+17    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+17-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:15:5-76
+17-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:15:22-74
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:16:5-65
+18-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:16:22-63
+19    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+19-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:17:5-77
+19-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:17:22-75
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:18:5-80
+20-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:18:22-78
+21
+22    <permission-group
+22-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-14:60
+23        android:name="org.dmfs.tasks.permissiongroup.Tasks"
+23-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:11:9-60
+24        android:description="@string/opentasks_permission_group_description_tasks"
+24-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-83
+25        android:icon="@drawable/ic_24_opentasks"
+25-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-49
+26        android:label="@string/opentasks_provider_label" />
+26-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-57
+27
+28    <permission
+28-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-21:47
+29        android:name="org.dmfs.permission.READ_TASKS"
+29-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-54
+30        android:description="@string/opentasks_permission_description_read_tasks"
+30-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-82
+31        android:label="@string/opentasks_permission_read_tasks"
+31-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-64
+32        android:permissionGroup="org.dmfs.tasks.permissiongroup.Tasks"
+32-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-71
+33        android:protectionLevel="dangerous" />
+33-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-44
+34    <permission
+34-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-27:47
+35        android:name="org.dmfs.permission.WRITE_TASKS"
+35-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-55
+36        android:description="@string/opentasks_permission_description_write_tasks"
+36-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-83
+37        android:label="@string/opentasks_permission_write_tasks"
+37-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-65
+38        android:permissionGroup="org.dmfs.tasks.permissiongroup.Tasks"
+38-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:26:9-71
+39        android:protectionLevel="dangerous" />
+39-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-44
+40
+41    <application
+41-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:20:5-390:19
+42        android:name="org.dmfs.tasks.TasksApplication"
+42-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:21:13-45
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.0.1] /Users/martdejager/.gradle/caches/transforms-2/files-2.1/2f0ac54944e4ab3b350bd6b40de77510/core-1.0.1/AndroidManifest.xml:22:18-86
+44        android:icon="@mipmap/ic_launcher"
+44-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:22:13-47
+45        android:label="@string/app_name"
+45-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:23:13-45
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:24:13-58
+47        android:supportsRtl="false"
+47-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:25:13-40
+48        android:taskAffinity="org.dmfs.tasks.TaskListActivity"
+48-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:26:13-67
+49        android:theme="@style/OpenTasksAppTheme" >
+49-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:27:13-53
+50
+51        <!-- TaskListActivity listens for MAIN intents -->
+52        <activity
+52-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:30:9-39:20
+53            android:name="org.dmfs.tasks.TaskListActivity"
+53-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:31:17-49
+54            android:label="@string/title_task_list"
+54-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:32:17-56
+55            android:launchMode="singleTask" >
+55-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:33:17-48
+56            <intent-filter>
+56-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:34:13-38:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:35:17-68
+57-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:35:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:37:17-76
+59-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:37:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <!-- ViewTaskActivity listens for VIEW intents -->
+64        <activity
+64-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:42:9-62:20
+65            android:name="org.dmfs.tasks.ViewTaskActivity"
+65-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:43:17-49
+66            android:label="@string/title_task_detail"
+66-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:44:17-58
+67            android:parentActivityName="org.dmfs.tasks.TaskListActivity"
+67-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:45:17-63
+68            android:theme="@style/OpenTasksAppTheme"
+68-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:46:17-57
+69            android:windowSoftInputMode="adjustResize" >
+69-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:47:17-59
+70            <intent-filter android:label="edit" >
+70-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:48:13-61:29
+70-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:48:28-48
+71                <action android:name="android.intent.action.VIEW" />
+71-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:49:17-68
+71-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:49:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+73-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+74
+75                <data
+75-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+76                    android:host="@string/opentasks_authority"
+76-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+77                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+77-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+78                    android:scheme="content" />
+78-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+79                <data
+79-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+80                    android:host="@string/opentasks_authority"
+80-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+81                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.instances"
+81-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+82                    android:scheme="content" />
+82-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+83            </intent-filter>
+84        </activity>
+85
+86        <!-- EditTaskActivity listens for EDIT, INSERT and INSERT_OR_EDIT intents -->
+87        <activity
+87-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:65:9-143:20
+88            android:name="org.dmfs.tasks.EditTaskActivity"
+88-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:66:17-49
+89            android:label="@string/activity_add_task_title"
+89-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:67:17-64
+90            android:parentActivityName="org.dmfs.tasks.TaskListActivity"
+90-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:68:17-63
+91            android:theme="@style/DetailsTheme"
+91-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:69:17-52
+92            android:windowSoftInputMode="stateHidden|adjustResize" >
+92-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:70:17-71
+93            <meta-data
+93-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:71:13-73:70
+94                android:name="android.support.PARENT_ACTIVITY"
+94-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:72:21-67
+95                android:value="org.dmfs.tasks.TaskListActivity" />
+95-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:73:21-68
+96
+97            <intent-filter android:label="@string/activity_edit_task_title" >
+97-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:75:13-88:29
+97-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:75:28-76
+98                <action android:name="android.intent.action.EDIT" />
+98-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:76:17-68
+98-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:76:25-66
+99
+100                <category android:name="android.intent.category.DEFAULT" />
+100-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+100-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+101
+102                <data
+102-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+103                    android:host="@string/opentasks_authority"
+103-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+104                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+104-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+105                    android:scheme="content" />
+105-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+106                <data
+106-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+107                    android:host="@string/opentasks_authority"
+107-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+108                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.instances"
+108-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+109                    android:scheme="content" />
+109-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+110            </intent-filter>
+111
+112            <!-- Voice command "note to self" in google search -->
+113            <intent-filter android:label="@string/activity_add_task_title" >
+113-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:91:13-97:29
+113-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:91:28-75
+114                <action android:name="com.google.android.gm.action.AUTO_SEND" />
+114-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:92:17-80
+114-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:92:25-78
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+116-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+117
+118                <data android:mimeType="text/*" />
+118-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+118-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+119            </intent-filter>
+120
+121            <!-- Intent filter for share intents -->
+122            <intent-filter android:label="@string/share_as_task" >
+122-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:100:13-106:29
+122-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:100:28-65
+123                <action android:name="android.intent.action.SEND" />
+123-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:101:17-68
+123-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:101:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+125-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+126
+127                <data android:mimeType="text/plain" />
+127-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+127-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+128            </intent-filter>
+129            <intent-filter android:label="@string/activity_add_task_title" >
+129-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:107:13-120:29
+129-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:107:28-75
+130                <action android:name="android.intent.action.INSERT" />
+130-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:108:17-70
+130-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:108:25-68
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+132-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+133
+134                <data
+134-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+135                    android:host="@string/opentasks_authority"
+135-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+136                    android:mimeType="vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+136-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+137                    android:scheme="content" />
+137-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+138                <data
+138-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+139                    android:host="@string/opentasks_authority"
+139-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+140                    android:mimeType="vnd.android.cursor.dir/org.dmfs.tasks.instances"
+140-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+141                    android:scheme="content" />
+141-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+142            </intent-filter>
+143            <intent-filter android:label="@string/activity_add_task_title" >
+143-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:121:13-142:29
+143-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:121:28-75
+144                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+144-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:122:17-78
+144-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:122:25-76
+145
+146                <category android:name="android.intent.category.DEFAULT" />
+146-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+146-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+147
+148                <data
+148-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+149                    android:host="@string/opentasks_authority"
+149-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+150                    android:mimeType="vnd.android.cursor.dir/org.dmfs.tasks.tasks"
+150-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+151                    android:scheme="content" />
+151-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+152                <data
+152-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+153                    android:host="@string/opentasks_authority"
+153-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+154                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+154-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+155                    android:scheme="content" />
+155-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+156                <data
+156-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+157                    android:host="@string/opentasks_authority"
+157-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+158                    android:mimeType="vnd.android.cursor.dir/org.dmfs.tasks.instances"
+158-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+159                    android:scheme="content" />
+159-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+160                <data
+160-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+161                    android:host="@string/opentasks_authority"
+161-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+162                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.instances"
+162-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+163                    android:scheme="content" />
+163-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:145:9-153:20
+167            android:name="org.dmfs.tasks.SyncSettingsActivity"
+167-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:146:17-53
+168            android:label="@string/title_activity_settings"
+168-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:147:17-64
+169            android:parentActivityName="org.dmfs.tasks.TaskListActivity"
+169-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:148:17-63
+170            android:theme="@style/AppTheme" >
+170-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:149:17-48
+171            <meta-data
+171-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:71:13-73:70
+172                android:name="android.support.PARENT_ACTIVITY"
+172-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:72:21-67
+173                android:value="org.dmfs.tasks.TaskListActivity" />
+173-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:73:21-68
+174        </activity>
+175
+176        <!-- homescreen widgets -->
+177        <activity
+177-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:156:9-163:20
+178            android:name="org.dmfs.tasks.homescreen.TaskListWidgetSettingsActivity"
+178-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:157:17-74
+179            android:label="@string/task_list_selection_title"
+179-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:158:17-66
+180            android:theme="@style/Theme.MaterialDialog" >
+180-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:159:17-60
+181            <intent-filter>
+181-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:160:13-162:29
+182                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+182-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:161:17-86
+182-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:161:25-84
+183            </intent-filter>
+184        </activity>
+185
+186        <service
+186-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:165:9-167:75
+187            android:name="org.dmfs.tasks.homescreen.TaskListWidgetUpdaterService"
+187-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:166:17-72
+188            android:permission="android.permission.BIND_REMOTEVIEWS" />
+188-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:167:17-73
+189
+190        <receiver
+190-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:169:9-197:20
+191            android:name="org.dmfs.tasks.homescreen.TaskListWidgetProvider"
+191-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:170:17-66
+192            android:label="@string/task_list_widget_title" >
+192-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:171:17-63
+193            <intent-filter>
+193-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:172:13-174:29
+194                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+194-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:173:17-83
+194-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:173:25-81
+195            </intent-filter>
+196            <intent-filter>
+196-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:175:13-177:29
+197                <action android:name="org.dmfs.tasks.action.TASKWIDGET_UPDATE" />
+197-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:176:17-81
+197-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:176:25-79
+198            </intent-filter>
+199            <intent-filter>
+199-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:178:13-184:29
+200                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+200-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:17-80
+200-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:25-78
+201
+202                <data
+202-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+203                    android:host="@string/opentasks_authority"
+203-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+204                    android:scheme="content" />
+204-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+205            </intent-filter>
+206            <intent-filter>
+206-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:185:13-192:29
+207                <action android:name="org.dmfs.android.tasks.TASK_START" />
+207-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:17-75
+207-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:25-73
+208
+209                <data
+209-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+210                    android:host="@string/opentasks_authority"
+210-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+211                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+211-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+212                    android:scheme="content" />
+212-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+213            </intent-filter>
+214
+215            <meta-data
+215-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:194:13-196:63
+216                android:name="android.appwidget.provider"
+216-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:195:21-62
+217                android:resource="@xml/task_widget_info" />
+217-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:196:21-61
+218        </receiver>
+219        <receiver
+219-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:198:9-227:20
+220            android:name="org.dmfs.tasks.homescreen.TaskListWidgetProviderLarge"
+220-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:199:17-71
+221            android:enabled="true"
+221-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:200:17-39
+222            android:label="@string/task_list_widget_title_4x4" >
+222-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:201:17-67
+223            <intent-filter>
+223-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:172:13-174:29
+224                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+224-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:173:17-83
+224-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:173:25-81
+225            </intent-filter>
+226            <intent-filter>
+226-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:175:13-177:29
+227                <action android:name="org.dmfs.tasks.action.TASKWIDGET_UPDATE" />
+227-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:176:17-81
+227-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:176:25-79
+228            </intent-filter>
+229            <intent-filter>
+229-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:178:13-184:29
+230                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+230-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:17-80
+230-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:25-78
+231
+232                <data
+232-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+233                    android:host="@string/opentasks_authority"
+233-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+234                    android:scheme="content" />
+234-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+235            </intent-filter>
+236            <intent-filter>
+236-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:185:13-192:29
+237                <action android:name="org.dmfs.android.tasks.TASK_START" />
+237-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:17-75
+237-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:25-73
+238
+239                <data
+239-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+240                    android:host="@string/opentasks_authority"
+240-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+241                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+241-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+242                    android:scheme="content" />
+242-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+243            </intent-filter>
+244
+245            <meta-data
+245-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:194:13-196:63
+246                android:name="android.appwidget.provider"
+246-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:195:21-62
+247                android:resource="@xml/task_widget_info_large" />
+247-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:196:21-61
+248        </receiver>
+249
+250        <!-- Dashclock extension -->
+251        <service
+251-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:230:9-252:19
+252            android:name="org.dmfs.tasks.dashclock.TasksExtension"
+252-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:231:17-57
+253            android:icon="@drawable/ic_dashboard"
+253-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:232:17-54
+254            android:label="@string/dashclock_extension_title"
+254-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:233:17-66
+255            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+255-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:234:17-102
+256            <intent-filter>
+256-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:235:13-237:29
+257                <action android:name="com.google.android.apps.dashclock.Extension" />
+257-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:236:17-85
+257-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:236:25-83
+258            </intent-filter>
+259
+260            <meta-data
+260-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:239:13-241:40
+261                android:name="protocolVersion"
+261-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:240:21-51
+262                android:value="2" />
+262-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:241:21-38
+263            <meta-data
+263-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:242:13-244:43
+264                android:name="worldReadable"
+264-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:243:21-49
+265                android:value="true" />
+265-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:244:21-41
+266            <meta-data
+266-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:245:13-247:78
+267                android:name="description"
+267-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:246:21-47
+268                android:value="@string/dashclock_extension_description" />
+268-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:247:21-76
+269            <!-- A settings activity is optional -->
+270            <meta-data
+270-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:249:13-251:91
+271                android:name="settingsActivity"
+271-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:250:21-52
+272                android:value="org.dmfs.tasks.dashclock.DashClockPreferenceActivity" />
+272-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:251:21-89
+273        </service>
+274
+275        <activity
+275-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:254:9-258:50
+276            android:name="org.dmfs.tasks.dashclock.DashClockPreferenceActivity"
+276-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:255:17-70
+277            android:exported="true"
+277-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:256:17-40
+278            android:label="@string/title_task_list"
+278-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:257:17-56
+279            android:theme="@style/AppTheme" />
+279-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:258:17-48
+280
+281        <!-- Manage List -->
+282        <activity
+282-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:261:9-286:20
+283            android:name="org.dmfs.tasks.ManageListActivity"
+283-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:262:17-51
+284            android:theme="@style/AppThemeDialog" >
+284-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:263:17-54
+285            <intent-filter>
+285-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:264:13-274:29
+286                <action android:name="android.intent.action.INSERT" />
+286-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:108:17-70
+286-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:108:25-68
+287
+288                <category android:name="android.intent.category.DEFAULT" />
+288-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+288-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+289                <category android:name="org.dmfs.intent.category.org.dmfs.account.LOCAL" />
+289-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:268:17-91
+289-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:268:27-89
+290
+291                <data
+291-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+292                    android:host="@string/opentasks_authority"
+292-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+293                    android:mimeType="vnd.android.cursor.dir/org.dmfs.tasks.tasklists"
+293-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+294                    android:scheme="content" />
+294-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+295            </intent-filter>
+296            <intent-filter>
+296-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:275:13-285:29
+297                <action android:name="android.intent.action.EDIT" />
+297-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:76:17-68
+297-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:76:25-66
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:17-75
+299-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:51:27-73
+300                <category android:name="org.dmfs.intent.category.org.dmfs.account.LOCAL" />
+300-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:268:17-91
+300-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:268:27-89
+301
+302                <data
+302-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+303                    android:host="@string/opentasks_authority"
+303-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+304                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasklists"
+304-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+305                    android:scheme="content" />
+305-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+306            </intent-filter>
+307        </activity>
+308
+309        <!-- App Settings -->
+310        <activity
+310-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:289:9-292:50
+311            android:name="org.dmfs.tasks.AppSettingsActivity"
+311-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:290:17-52
+312            android:label="@string/title_activity_settings"
+312-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:291:17-64
+313            android:theme="@style/AppTheme" />
+313-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:292:17-48
+314
+315        <!-- Notification -->
+316        <receiver
+316-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:295:9-319:20
+317            android:name="org.dmfs.tasks.notification.TaskNotificationHandler"
+317-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:296:17-69
+318            android:exported="true" >
+318-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:297:17-40
+319            <intent-filter>
+319-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:178:13-184:29
+320                <action android:name="android.intent.action.PROVIDER_CHANGED" />
+320-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:17-80
+320-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:179:25-78
+321
+322                <data
+322-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+323                    android:host="@string/opentasks_authority"
+323-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+324                    android:scheme="content" />
+324-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+325            </intent-filter>
+326            <intent-filter>
+326-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:305:13-312:29
+327                <action android:name="android.intent.action.BOOT_COMPLETED" />
+327-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:306:17-78
+327-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:306:25-76
+328                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+328-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:307:17-83
+328-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:307:25-81
+329                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+329-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:308:17-81
+329-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:308:25-79
+330                <action android:name="android.intent.action.TIME_SET" />
+330-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:309:17-72
+330-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:309:25-70
+331                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+331-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:310:17-80
+331-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:310:25-78
+332                <action android:name="android.intent.action.DATE_CHANGED" />
+332-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:311:17-76
+332-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:311:25-74
+333            </intent-filter>
+334            <intent-filter>
+334-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:313:13-318:29
+335                <action android:name="org.dmfs.tasks.intent.ACTION_DAY_CHANGED" />
+335-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:314:17-82
+335-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:314:25-80
+336                <action android:name="org.dmfs.tasks.action.notification.UNDO" />
+336-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:315:17-81
+336-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:315:25-79
+337                <action android:name="org.dmfs.tasks.action.notification.DESTRUCT" />
+337-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:316:17-85
+337-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:316:25-83
+338                <action android:name="org.dmfs.tasks.action.notification.ACTION_UNDO_TIMEOUT" />
+338-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:317:17-96
+338-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:317:25-94
+339            </intent-filter>
+340        </receiver>
+341        <receiver
+341-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:320:9-332:20
+342            android:name="org.dmfs.tasks.utils.DatabaseInitializedReceiver"
+342-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:321:17-66
+343            android:enabled="@bool/opentasks_support_local_lists"
+343-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:322:17-70
+344            android:exported="false" >
+344-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:323:17-41
+345            <intent-filter>
+345-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:324:13-331:29
+346                <action android:name="org.dmfs.tasks.DATABASE_INITIALIZED" />
+346-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:325:17-77
+346-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:325:25-75
+347
+348                <data
+348-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+349                    android:host="@string/opentasks_authority"
+349-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+350                    android:mimeType="vnd.android.cursor.dir/vnd.org.dmfs.authority.mimetype"
+350-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+351                    android:scheme="content" />
+351-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+352            </intent-filter>
+353        </receiver>
+354        <receiver
+354-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:333:9-339:20
+355            android:name="org.dmfs.tasks.StaleListBroadcastReceiver"
+355-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:334:17-59
+356            android:exported="false" >
+356-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:335:17-41
+357            <intent-filter>
+357-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:336:13-338:29
+358                <action android:name="org.dmfs.tasks.action.STALE_LIST_BROADCAST" />
+358-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:337:17-84
+358-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:337:25-82
+359            </intent-filter>
+360        </receiver>
+361
+362        <service
+362-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:341:9-344:75
+363            android:name="org.dmfs.tasks.notification.TaskNotificationService"
+363-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:342:17-69
+364            android:exported="true"
+364-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:343:17-40
+365            android:permission="android.permission.BIND_JOB_SERVICE" />
+365-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:344:17-73
+366        <service
+366-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:345:9-354:19
+367            android:name="org.dmfs.tasks.quicksettings.TaskQuickSettingsTile"
+367-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:346:17-68
+368            android:description="@string/quicksettingstile_create"
+368-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:347:17-71
+369            android:icon="@drawable/content_edit"
+369-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:348:17-54
+370            android:label="@string/quicksettingstile_create"
+370-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:349:17-65
+371            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+371-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:350:17-81
+372            <intent-filter>
+372-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:351:13-353:29
+373                <action android:name="android.service.quicksettings.action.QS_TILE" />
+373-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:352:17-86
+373-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:352:25-84
+374            </intent-filter>
+375        </service>
+376
+377        <receiver
+377-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:356:9-384:20
+378            android:name="org.dmfs.tasks.notification.ActionReceiver"
+378-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:357:17-60
+379            android:enabled="true"
+379-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:358:17-39
+380            android:exported="false" >
+380-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:359:17-41
+381            <intent-filter>
+381-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:360:13-371:29
+382                <action android:name="org.dmfs.android.tasks.TASK_DUE" />
+382-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:361:17-73
+382-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:361:25-71
+383
+384                <data
+384-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+385                    android:host="@string/opentasks_authority"
+385-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+386                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+386-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+387                    android:scheme="content" />
+387-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+388                <data
+388-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+389                    android:host="@string/opentasks_authority"
+389-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+390                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.instances"
+390-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+391                    android:scheme="content" />
+391-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+392            </intent-filter>
+393            <intent-filter>
+393-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:372:13-383:29
+394                <action android:name="org.dmfs.android.tasks.TASK_START" />
+394-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:17-75
+394-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:186:25-73
+395
+396                <data
+396-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+397                    android:host="@string/opentasks_authority"
+397-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+398                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.tasks"
+398-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+399                    android:scheme="content" />
+399-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+400                <data
+400-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:53:17-56:51
+401                    android:host="@string/opentasks_authority"
+401-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:54:25-67
+402                    android:mimeType="vnd.android.cursor.item/org.dmfs.tasks.instances"
+402-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:55:25-88
+403                    android:scheme="content" />
+403-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:56:25-49
+404            </intent-filter>
+405        </receiver>
+406
+407        <service
+407-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:386:9-389:75
+408            android:name="org.dmfs.tasks.notification.ActionService"
+408-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:387:17-59
+409            android:exported="true"
+409-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:388:17-40
+410            android:permission="android.permission.BIND_JOB_SERVICE" />
+410-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:389:17-73
+411
+412        <provider
+412-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:32:9-39:73
+413            android:name="org.dmfs.provider.tasks.TaskProvider"
+413-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-64
+414            android:authorities="@string/opentasks_authority"
+414-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-62
+415            android:exported="true"
+415-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-36
+416            android:label="@string/opentasks_provider_label"
+416-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-61
+417            android:multiprocess="false"
+417-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-41
+418            android:readPermission="org.dmfs.permission.READ_TASKS"
+418-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-68
+419            android:writePermission="org.dmfs.permission.WRITE_TASKS" />
+419-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-70
+420
+421        <receiver
+421-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:41:9-51:20
+422            android:name="org.dmfs.provider.tasks.TaskProviderBroadcastReceiver"
+422-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-81
+423            android:exported="true" >
+423-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:43:13-36
+424            <intent-filter>
+424-->[:opentasks-provider] /Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks-provider/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-50:29
+425                <action android:name="android.intent.action.BOOT_COMPLETED" />
+425-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:306:17-78
+425-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:306:25-76
+426                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+426-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:308:17-81
+426-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:308:25-79
+427                <action android:name="android.intent.action.TIME_SET" />
+427-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:309:17-72
+427-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:309:25-70
+428                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+428-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:310:17-80
+428-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:310:25-78
+429                <action android:name="android.intent.action.DATE_CHANGED" />
+429-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:311:17-76
+429-->/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/AndroidManifest.xml:311:25-74
+430            </intent-filter>
+431        </receiver>
+432    </application>
+433
+434</manifest>

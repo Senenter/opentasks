@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="number_of_tasks">
+        <item quantity="one">%d zadanie</item>
+        <item quantity="few">%d zadania</item>
+        <item quantity="many">%d zadań</item>
+        <item quantity="other">%d zadań</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Przejdź do strony głównej"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Przejdź wyżej"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Więcej opcji"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotowe"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobacz wszystkie"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Wybierz aplikację"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"WYŁ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"WŁ."</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Funkcyjny+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"spacja"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Szukaj…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Wyczyść zapytanie"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Wyszukiwane hasło"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Szukaj"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Wyślij zapytanie"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Wyszukiwanie głosowe"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Udostępnij dla"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Udostępnij przez: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zwiń"</string>
+    <string name="accept">Akceptuj</string>
+    <string name="action_add_local_list">Dodaj listę</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_save">Zapisz</string>
+    <string name="action_save_and_continue">Zachowaj i kontynuuj</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="activity_add_list_title">Utwórz listę lokalną</string>
+    <string name="activity_add_task_title">Utwórz zadanie</string>
+    <string name="activity_edit_list_title">Ustawienia listy</string>
+    <string name="activity_edit_task_empty_task_not_saved">Puste zadanie nie zostało zapisane.</string>
+    <string name="activity_edit_task_error_invalid_url">Błędny adres URL</string>
+    <string name="activity_edit_task_task_saved">Zadanie zapisane.</string>
+    <string name="activity_edit_task_title">Edytuj zadanie</string>
+    <string name="activity_manage_list_btn_delete">skasuj listę</string>
+    <string name="activity_manage_list_btn_save">zapisz</string>
+    <string name="activity_task_details_complete">Zakończone</string>
+    <string name="activity_task_details_complete_task">Zakończone zadanie</string>
+    <string name="activity_task_details_delete">Usuń</string>
+    <string name="activity_task_details_delete_task">Usuń zadanie</string>
+    <string name="activity_task_details_edit">Edytuj</string>
+    <string name="activity_task_details_edit_task">Edytuj zadanie</string>
+    <string name="activity_task_details_pin">Przypnij</string>
+    <string name="activity_task_details_pin_task">Przypnij zadanie do paska zadań</string>
+    <string name="app_name">OpenTasks</string>
+    <string name="button_add_one_day">+1 dzień</string>
+    <string name="button_add_one_hour">+1 godzina</string>
+    <string name="cd_due_date">ikonka terminu zakończenia zadania</string>
+    <string name="cd_start_date">ikonka rozpoczęcia daty zadania</string>
+    <string name="classification_confidential">poufne</string>
+    <string name="classification_not_specified">nieokreślone</string>
+    <string name="classification_private">prywatne</string>
+    <string name="classification_public">publiczne</string>
+    <string name="confirm_delete_message">Usunąć to zadanie?</string>
+    <string name="confirm_delete_message_with_title">Usunąć \"%1s\"?</string>
+    <string name="confirm_delete_title">Potwierdź usunięcie</string>
+    <string name="dashclock_display_type_all">wszyskie</string>
+    <string name="dashclock_display_type_due">zadania zaplanowane</string>
+    <string name="dashclock_display_type_pinned">podpięte zadania</string>
+    <string name="dashclock_display_type_start">zadania rozpoczynające się</string>
+    <string name="dashclock_display_type_start_and_due">zadania rozpoczynające się i zaplanowane</string>
+    <string name="dashclock_extension_description">Wyświetla informacje dla ostatnich zadań.</string>
+    <string name="dashclock_extension_title">Zadania</string>
+    <string name="dashclock_pref_displayed_task_dialog_title">Wydarzenia do wyświetlenia</string>
+    <string name="dashclock_pref_displayed_task_summary">Wybierz, które zdarzenia zadań są wyświetlane w widżecie paska zadań</string>
+    <string name="dashclock_pref_displayed_task_title">Wyświetlone zadania</string>
+    <string name="dashclock_preference_title">Ustawienia paska zadań</string>
+    <string name="dashclock_widget_title_due_expanded">%1$s zaplanowanych due - %2$s</string>
+    <string name="dashclock_widget_title_due_expanded_allday">%1$s zaplanowane</string>
+    <string name="dashclock_widget_title_start_expanded">%1$s zaczynające się - %2$s</string>
+    <string name="dashclock_widget_title_start_expanded_allday">%1$s zaczynające się dziś</string>
+    <string name="fling_task_complete">Zakończone</string>
+    <string name="fling_task_delete">Skasuj</string>
+    <string name="fling_task_edit">Edytuj</string>
+    <string name="fling_task_uncomplete">Nie zakończone</string>
+    <string name="gd_by_completed">Zakończone</string>
+    <string name="gd_by_due_date">Data zakończenia</string>
+    <string name="gd_by_list">Listy</string>
+    <string name="initial_local_task_list_name">Moje zadania</string>
+    <string name="menu_add_task">Dodaj zadanie</string>
+    <string name="menu_add_task_condensed">Dodaj</string>
+    <string name="menu_search_hint">Szukaj</string>
+    <string name="menu_show_completed">Pokazuj zakończone</string>
+    <string name="menu_show_completed_condensed">Pokaż zakończone</string>
+    <string name="menu_sync_now">Odśwież</string>
+    <string name="menu_sync_now_condensed">Odśwież</string>
+    <string name="notification_action_complete">ukończone</string>
+    <string name="notification_action_completed">Zrealizowane</string>
+    <string name="notification_action_delay_1d">+1 dzień</string>
+    <string name="notification_action_delay_1h">+1 godzina</string>
+    <string name="notification_action_delay_toast">Czas zaplanowanych zaktualizowany</string>
+    <string name="notification_action_unpin">odepnij od paska zadań</string>
+    <string name="notification_task_due_date">Zaplanowane %1s</string>
+    <string name="notification_task_due_today">Zaplanowane na dziś</string>
+    <string name="notification_task_pin_ticker">%1$s została odpięta</string>
+    <string name="notification_task_start_date">Rozpoczynające się %1s</string>
+    <string name="notification_task_start_today">Rozpoczynające się dziś</string>
+    <string name="notification_undo">Cofnij</string>
+    <string name="now">teraz</string>
+    <string name="opentasks_checklist_add_item">Dodaj pozycję</string>
+    <string name="opentasks_checklist_empty_item_hint">Nazwa pozycji</string>
+    <string name="opentasks_date_time">%1$s %2$s</string>
+    <string name="opentasks_details_no_task_selected">Nie wybrano żadnego zadania</string>
+    <string name="opentasks_notification_channel_due_dates">Daty rozpoczęcia i realizacji</string>
+    <string name="opentasks_notification_channel_pinned_tasks">Przypięte zadania</string>
+    <string name="opentasks_permission_description_read_tasks">Pozwala aplikacji na czytanie zadań z Twojej listy zadań</string>
+    <string name="opentasks_permission_description_write_tasks">Pozwala aplikacji na zapisywanie zadań na Twojej liście zadań</string>
+    <string name="opentasks_permission_group_description_tasks">Pozwala aplikacji na zapisywanie zadań na Twojej liście zadań</string>
+    <string name="opentasks_permission_read_tasks">Czytaj zadania</string>
+    <string name="opentasks_permission_request_dialog_getaccounts_button_continue">Kontyntynuj</string>
+    <string name="opentasks_permission_request_dialog_getaccounts_button_settings">Otwórz ustawienia</string>
+    <string name="opentasks_permission_request_dialog_getaccounts_message"><![CDATA[Aby odczytać listę kont na Twoim urządzeniu, które obsługują synchronizację zadań, %s potrzeba pozwolenia GET_ACCOUNTS.<br/><br/>
+    Pamiętaj, że z powodu nie przemyślanego wyboru Google, prośba o pozwolenie będzie oznaczać jako &quot;uzyskanie dostępu do kontaktów&quot; zamiast &quot;czytać konta&quot;. Zobacz <a href="https://issuetracker.google.com/issues/37065963">Issue 37065963</a> w celu uzyskania dalszych informacji.]]></string>
+    <string name="opentasks_permission_request_dialog_getaccounts_title">Wymagane pozwolenie</string>
+    <string name="opentasks_permission_write_tasks">Zapisuj zadania</string>
+    <string name="opentasks_provider_label">Zadania</string>
+    <string name="opentasks_relative_time">%1$s, %2$s</string>
+    <string name="opentasks_settings_notification_enable">Powiadomienia</string>
+    <string name="opentasks_settings_notification_lights">Światło pulsacyjne</string>
+    <string name="opentasks_settings_notification_signals_section_title">Sygnały powiadomień</string>
+    <string name="opentasks_settings_notification_sound">Dźwięk</string>
+    <string name="opentasks_settings_notification_vibrate">Wibracja</string>
+    <string name="opentasks_share_footer">Udostępnione przez OpenTasks</string>
+    <string name="opentasks_task_details_menu_send">Wyślij do</string>
+    <string name="opentasks_task_details_menu_send_short">Wyślij</string>
+    <string name="org_dmfs_colorpicker_pick_a_color">Wybierz kolor</string>
+    <string name="priority_high">wysoki</string>
+    <string name="priority_low">niski</string>
+    <string name="priority_medium">średni</string>
+    <string name="priority_undefined">brak</string>
+    <string name="priority_urgent">pilne</string>
+    <string name="quick_add_task_created">Zadanie utworzone</string>
+    <string name="quicksettingstile_create">Utwórz zadanie</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Szukaj"</string>
+    <string name="share_as_task">Dodaj zadanie</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_cancelled">anulowane</string>
+    <string name="status_completed">wykonane</string>
+    <string name="status_in_process">w trakcie</string>
+    <string name="status_incomplete">niekompletne</string>
+    <string name="status_needs_action">wymaga działania</string>
+    <string name="synced_task_lists">Listy zsynchronizowane</string>
+    <string name="task_all_day">Cały dzień</string>
+    <string name="task_checklist">Lista</string>
+    <string name="task_classification">Prywatność</string>
+    <string name="task_completed">Zakończenie</string>
+    <string name="task_description">Opis</string>
+    <string name="task_detail_activity">Szczegóły zadania</string>
+    <string name="task_due">Koniec</string>
+    <string name="task_group_all_title">Listy</string>
+    <string name="task_group_completed_title">Zakończone</string>
+    <string name="task_group_due_in_future">Na pozostałe dni</string>
+    <string name="task_group_due_in_month">Na miesiąc %s</string>
+    <string name="task_group_due_in_year">Na rok %d</string>
+    <string name="task_group_due_title">Konieczne</string>
+    <string name="task_group_due_today">Na dzisiaj</string>
+    <string name="task_group_due_tomorrow">Na jutro</string>
+    <string name="task_group_due_within_7_days">Na następne dni</string>
+    <string name="task_group_no_due">Brak daty zakończenia</string>
+    <string name="task_group_overdue">Zaległe</string>
+    <string name="task_group_priority_high">Wysoki priorytet</string>
+    <string name="task_group_priority_low">Niski priorytet</string>
+    <string name="task_group_priority_medium">Średni priorytet</string>
+    <string name="task_group_priority_none">Bez priorytetu</string>
+    <string name="task_group_priority_title">Priorytet</string>
+    <string name="task_group_progress_0">Nie zrealizowane</string>
+    <string name="task_group_progress_100">Zakończone</string>
+    <string name="task_group_progress_40">Rozpoczęte</string>
+    <string name="task_group_progress_60">Częściowo wykonane</string>
+    <string name="task_group_progress_80">Prawie zakończone</string>
+    <string name="task_group_progress_title">Postęp</string>
+    <string name="task_group_search_title">Szukaj</string>
+    <string name="task_group_start_in_future">W pozostałych dniach</string>
+    <string name="task_group_start_started">Już rozpoczęte</string>
+    <string name="task_group_start_title">Rozpocznij</string>
+    <string name="task_group_start_today">Dzisiaj</string>
+    <string name="task_group_start_tomorrow">Jutro</string>
+    <string name="task_group_start_within_7_days">W najbliższych dniach</string>
+    <string name="task_group_title_default">Zadania</string>
+    <string name="task_group_title_due">Zaplanowane</string>
+    <string name="task_group_title_list">Zadania</string>
+    <string name="task_group_title_priority">Priorytetowe</string>
+    <string name="task_group_title_progress">Stan realizacji</string>
+    <string name="task_group_title_start">Rozpoczynające się</string>
+    <string name="task_list">Lista</string>
+    <string name="task_list_color_caption">Kolor listy</string>
+    <string name="task_list_delete_dialog_message">Skasować listę i wszystkie zadania, które się na niej znajdują?\nUwaga: Po usunięciu listy nie ma możliwości przywrócenia jej.</string>
+    <string name="task_list_delete_dialog_title">Skasuj %s</string>
+    <string name="task_list_delete_toast">%s skasowana</string>
+    <string name="task_list_name_caption">Nazwa</string>
+    <string name="task_list_name_dialog_error">Wpisz nazwę.</string>
+    <string name="task_list_name_dialog_hint">nazwa listy</string>
+    <string name="task_list_name_dialog_title">Wpisz nazwę listy</string>
+    <string name="task_list_no_sync">Uwaga: Ta funkcja tworzy listę lokalną. Zadania na listach lokalnych nie będą synchronizowane.</string>
+    <string name="task_list_selection_cancel">ANULUJ</string>
+    <string name="task_list_selection_empty">Brak dostępej listy zadań</string>
+    <string name="task_list_selection_ok">OK</string>
+    <string name="task_list_selection_title">Wybierz listy do wyświetlenia</string>
+    <string name="task_list_settings_dialog_account_title">Wybierz konto</string>
+    <string name="task_list_widget_title">Bieżące zadania</string>
+    <string name="task_list_widget_title_4x4">Bieżące zadania 4x4</string>
+    <string name="task_location">Lokalizacja</string>
+    <string name="task_percent_complete">Procent realizacji</string>
+    <string name="task_priority">Priorytet</string>
+    <string name="task_start">Początek</string>
+    <string name="task_status">Status</string>
+    <string name="task_timezone">Strefa czasowa</string>
+    <string name="task_title">Tytuł</string>
+    <string name="task_url">URL</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="title_task_detail">Szczegóły zadania</string>
+    <string name="title_task_list">Zadania</string>
+    <string name="toast_task_completed">\"%1s\" zrealizowane.</string>
+    <string name="toast_task_created">\"%1s\" utworzone.</string>
+    <string name="toast_task_deleted">\"%1s\" usunięte.</string>
+    <string name="toast_task_uncompleted">\"%1s\" ponownie otwarte.</string>
+    <string name="toast_x_removed">\"%1s\" usunięte.</string>
+    <string name="visible_task_lists">Wyświetlane listy</string>
+</resources>

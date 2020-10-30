@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="number_of_tasks">
+        <item quantity="one">%d tarea</item>
+        <item quantity="other">%d tareas</item>
+    </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Eliminar"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="accept">Aceptar</string>
+    <string name="action_add_local_list">Añadir Lista</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_save_and_continue">Guardar y seguir</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="activity_add_list_title">Crear lista local</string>
+    <string name="activity_add_task_title">Crear</string>
+    <string name="activity_edit_list_title">Ajustess de la lista</string>
+    <string name="activity_edit_task_empty_task_not_saved">Tarea vacía no guardada.</string>
+    <string name="activity_edit_task_error_invalid_url">URL no válida</string>
+    <string name="activity_edit_task_task_saved">Tarea guardada.</string>
+    <string name="activity_edit_task_title">Editar</string>
+    <string name="activity_manage_list_btn_delete">eliminar lista</string>
+    <string name="activity_manage_list_btn_save">guardar</string>
+    <string name="activity_task_details_complete">Completar</string>
+    <string name="activity_task_details_complete_task">Completar tarea</string>
+    <string name="activity_task_details_delete">Eliminar</string>
+    <string name="activity_task_details_delete_task">Eliminar tarea</string>
+    <string name="activity_task_details_edit">Editar</string>
+    <string name="activity_task_details_edit_task">Editar tarea</string>
+    <string name="activity_task_details_pin">Marcar</string>
+    <string name="activity_task_details_pin_task">Marcar tarea</string>
+    <string name="app_name">OpenTasks</string>
+    <string name="button_add_one_day">+1 día</string>
+    <string name="button_add_one_hour">+1 hora</string>
+    <string name="cd_due_date">icono para la fecha de vencimiento de la tarea</string>
+    <string name="cd_start_date">icono para la fecha de comienzo de la tarea</string>
+    <string name="classification_confidential">confidencial</string>
+    <string name="classification_not_specified">no especificada</string>
+    <string name="classification_private">privada</string>
+    <string name="classification_public">pública</string>
+    <string name="confirm_delete_message">¿Eliminar esta tarea?</string>
+    <string name="confirm_delete_message_with_title">¿Eliminar \"%1s\"?</string>
+    <string name="confirm_delete_title">Confirmar eliminar</string>
+    <string name="dashclock_display_type_all">todas</string>
+    <string name="dashclock_display_type_due">Tareas vencidas</string>
+    <string name="dashclock_display_type_pinned">tareas marcadas</string>
+    <string name="dashclock_display_type_start">Tareas comenzadas</string>
+    <string name="dashclock_display_type_start_and_due">tareas comenzadas y vencidas</string>
+    <string name="dashclock_extension_description">Muestra información de tareas recientes.</string>
+    <string name="dashclock_extension_title">Tareas</string>
+    <string name="dashclock_pref_displayed_task_dialog_title">Eventos a mostrar</string>
+    <string name="dashclock_pref_displayed_task_summary">Seleccionar qué eventos de tareas se muestran en el widget de dashclock</string>
+    <string name="dashclock_pref_displayed_task_title">Eventos mostrados</string>
+    <string name="dashclock_preference_title">Preferencias de Tareas en DashClock</string>
+    <string name="dashclock_widget_title_due_expanded">%1$s vence - %2$s</string>
+    <string name="dashclock_widget_title_due_expanded_allday">%1$s vence</string>
+    <string name="dashclock_widget_title_start_expanded">%1$s comienza - %2$s</string>
+    <string name="dashclock_widget_title_start_expanded_allday">%1$s comienza hoy</string>
+    <string name="fling_task_complete">Completar</string>
+    <string name="fling_task_delete">Eliminar</string>
+    <string name="fling_task_edit">Editar</string>
+    <string name="fling_task_uncomplete">Deshacer completar</string>
+    <string name="gd_by_completed">Completadas</string>
+    <string name="gd_by_due_date">Por vencimiento</string>
+    <string name="gd_by_list">Por lista</string>
+    <string name="initial_local_task_list_name">Mis tareas</string>
+    <string name="menu_add_task">Añadir tarea</string>
+    <string name="menu_add_task_condensed">Añadir</string>
+    <string name="menu_search_hint">Buscar</string>
+    <string name="menu_show_completed">Mostrar tareas completadas</string>
+    <string name="menu_show_completed_condensed">Mostrar tareas completadas</string>
+    <string name="menu_sync_now">Refrescar</string>
+    <string name="menu_sync_now_condensed">Refrescar</string>
+    <string name="notification_action_complete">completar</string>
+    <string name="notification_action_completed">Completada</string>
+    <string name="notification_action_delay_1d">+1 día</string>
+    <string name="notification_action_delay_1h">+1 hora</string>
+    <string name="notification_action_delay_toast">Vencimiento actualizado</string>
+    <string name="notification_action_unpin">Desmarcar</string>
+    <string name="notification_task_due_date">Vencimiento de la tarea, %1s</string>
+    <string name="notification_task_due_today">La tarea vence hoy</string>
+    <string name="notification_task_pin_ticker">%1$s ha sido marcada</string>
+    <string name="notification_task_start_date">Comienzo de la tarea, %1s</string>
+    <string name="notification_task_start_today">La tarea comienza hoy</string>
+    <string name="notification_undo">Deshacer</string>
+    <string name="now">ahora</string>
+    <string name="opentasks_checklist_add_item">Añadir elemento</string>
+    <string name="opentasks_checklist_empty_item_hint">Nuevo elemento</string>
+    <string name="opentasks_permission_description_read_tasks">Leer tareas y listas de tareas</string>
+    <string name="opentasks_permission_description_write_tasks">Crear, modificar y borrar tareas y listas de tareas</string>
+    <string name="opentasks_permission_group_description_tasks">Crear, modificar y borrar tareas y listas de tareas</string>
+    <string name="opentasks_permission_read_tasks">leer tareas</string>
+    <string name="opentasks_permission_write_tasks">escribir tareas</string>
+    <string name="opentasks_provider_label">Tareas</string>
+    <string name="opentasks_settings_notification_enable">Notificaciones</string>
+    <string name="org_dmfs_colorpicker_pick_a_color">Elija un color</string>
+    <string name="priority_high">alta</string>
+    <string name="priority_low">baja</string>
+    <string name="priority_medium">media</string>
+    <string name="priority_undefined">ninguna</string>
+    <string name="priority_urgent">urgente</string>
+    <string name="quick_add_task_created">Tarea creadas</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="share_as_task">Crear Tarea</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="status_cancelled">cancelada</string>
+    <string name="status_completed">realizada</string>
+    <string name="status_in_process">en proceso</string>
+    <string name="status_incomplete">incompleta</string>
+    <string name="status_needs_action">pendiente</string>
+    <string name="synced_task_lists">Listas Sincronizadas</string>
+    <string name="task_all_day">Todo el día</string>
+    <string name="task_checklist">Lista de comprobación</string>
+    <string name="task_classification">Privacidad</string>
+    <string name="task_completed">Completada</string>
+    <string name="task_description">Descripción</string>
+    <string name="task_detail_activity">Detalle de la tarea</string>
+    <string name="task_due">Vencimiento</string>
+    <string name="task_group_all_title">Lists</string>
+    <string name="task_group_completed_title">Completed</string>
+    <string name="task_group_due_in_future">Vence más tarde</string>
+    <string name="task_group_due_in_month">Vence en %s</string>
+    <string name="task_group_due_in_year">Vence en %d</string>
+    <string name="task_group_due_title">Due</string>
+    <string name="task_group_due_today">Vence hoy</string>
+    <string name="task_group_due_tomorrow">Vence mañana</string>
+    <string name="task_group_due_within_7_days">Vence pronto</string>
+    <string name="task_group_no_due">Sin vencimiento</string>
+    <string name="task_group_overdue">Vencidas</string>
+    <string name="task_group_priority_high">Prioridad alta</string>
+    <string name="task_group_priority_low">Prioridad baja</string>
+    <string name="task_group_priority_medium">Prioridad media</string>
+    <string name="task_group_priority_none">Sin prioridad</string>
+    <string name="task_group_priority_title">Priority</string>
+    <string name="task_group_progress_0">Nothing accomplished</string>
+    <string name="task_group_progress_100">Done</string>
+    <string name="task_group_progress_40">Way to go</string>
+    <string name="task_group_progress_60">Halfway there</string>
+    <string name="task_group_progress_80">Almost done</string>
+    <string name="task_group_progress_title">Progress</string>
+    <string name="task_group_search_title">Search</string>
+    <string name="task_group_start_in_future">Later</string>
+    <string name="task_group_start_started">Already Started</string>
+    <string name="task_group_start_title">Start</string>
+    <string name="task_group_start_today">Today</string>
+    <string name="task_group_start_tomorrow">Tomorrow</string>
+    <string name="task_group_start_within_7_days">Someday</string>
+    <string name="task_group_title_default">Tareas</string>
+    <string name="task_group_title_due">Tareas por vencimiento</string>
+    <string name="task_group_title_list">Tareas</string>
+    <string name="task_group_title_priority">Tarea por prioridad</string>
+    <string name="task_group_title_progress">Tarea por progreso</string>
+    <string name="task_group_title_start">Tareas por comienzo</string>
+    <string name="task_list">Lista</string>
+    <string name="task_list_color_caption">Color de la lista</string>
+    <string name="task_list_delete_dialog_message">¿Eliminar la lista y todas sus tareas?\nNota: No es posible recuperar las listas eliminadas.</string>
+    <string name="task_list_delete_dialog_title">Eliminar %s</string>
+    <string name="task_list_delete_toast">%s elimminada</string>
+    <string name="task_list_name_caption">Nombre</string>
+    <string name="task_list_name_dialog_error">Introducir un nombre.</string>
+    <string name="task_list_name_dialog_hint">Nombre de la lista</string>
+    <string name="task_list_name_dialog_title">Introducir el nombre de  la lista</string>
+    <string name="task_list_no_sync">Nota: Esto creará una lista local. Las tareas en listas locales no se sincronizan.</string>
+    <string name="task_list_selection_cancel">Cancelar</string>
+    <string name="task_list_selection_empty">No hay listas de tareas disponibles</string>
+    <string name="task_list_selection_ok">Aceptar</string>
+    <string name="task_list_selection_title">Seleccionar listas para mostrar</string>
+    <string name="task_list_settings_dialog_account_title">Elige una cuenta</string>
+    <string name="task_list_widget_title">Tareas actuales</string>
+    <string name="task_list_widget_title_4x4">Tareas actuales 4x4</string>
+    <string name="task_location">Ubicación</string>
+    <string name="task_percent_complete">Porcentaje completado</string>
+    <string name="task_priority">Prioridad</string>
+    <string name="task_start">Inicio</string>
+    <string name="task_status">Estado</string>
+    <string name="task_timezone">Zona Horaria</string>
+    <string name="task_title">Título</string>
+    <string name="task_url">URL</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_task_detail">Detalle de la tarea</string>
+    <string name="title_task_list">Tareas</string>
+    <string name="toast_task_completed">\"%1s\" completada.</string>
+    <string name="toast_task_created">\"%1s\" creada.</string>
+    <string name="toast_task_deleted">\"%1s\" eliminada.</string>
+    <string name="toast_task_uncompleted">\"%1s\" reabierta.</string>
+    <string name="toast_x_removed">\"%1s\" eliminada.</string>
+    <string name="visible_task_lists">Listas Mostradas</string>
+</resources>

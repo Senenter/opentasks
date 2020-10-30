@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-port-v13/values-sw720dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-sw720dp-port/bools.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-sw720dp-port/refs.xml",
+                    "from": {
+                        "startLines": "10,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "314,424",
+                        "endLines": "12,15",
+                        "endColumns": "11,11",
+                        "endOffsets": "419,542"
+                    },
+                    "to": {
+                        "startLines": "4,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "160,258",
+                        "endLines": "5,7",
+                        "endColumns": "11,11",
+                        "endOffsets": "253,364"
+                    }
+                },
+                {
+                    "source": "/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/src/main/res/values-sw720dp-port/dimens.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "61",
+                        "endOffsets": "74"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endColumns": "61",
+                        "endOffsets": "155"
+                    }
+                }
+            ]
+        }
+    ]
+}

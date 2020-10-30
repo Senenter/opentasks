@@ -1,0 +1,4 @@
+#Fri Oct 30 10:36:51 CET 2020
+base.0=/Users/martdejager/Desktop/HZ/JAAR 2/CONTINUOUS INTEGRATION/opentasks/opentasks/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
