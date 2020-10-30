@@ -16,5 +16,6 @@ jobs:
       - uses: actions/setup-java@v1
       - uses: actions/upload-artifact@v2
         with:
+          java-version: 8
           name: Release
           path: build/releases
