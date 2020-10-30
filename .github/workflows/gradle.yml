@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: Release
-          path: build/outputs/apk/debug/opentasks-debug.apk
+          path: build/outputs/apk/debug
