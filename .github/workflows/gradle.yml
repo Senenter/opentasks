@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 8
+      - name: Build gradle
+        run: ./gradlew build
       - uses: actions/upload-artifact@v2
         with:
           name: Release
